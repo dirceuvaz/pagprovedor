@@ -1,0 +1,233 @@
+/*===============================*/
+/*
+
+Projeto CSS Criado por Dirceu
+
+*/
+/*===============================*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i');
+
+body{
+  font-family: 'Roboto',sans-serif;
+	overflow-x: hidden;
+}
+
+nav div div ul li {
+	margin-left: 20px;
+}
+
+footer{
+  height:80px;  
+  background: #20222E;
+  color: #fff;
+}
+
+footer a{
+  font-size: 14px;
+  color: #fff;
+}
+
+footer p {
+  margin-top: 40px;
+  font-size: 12px;
+}
+
+.navbar {
+	background: #FFF;
+	box-shadow: 0 0.2rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.carousel-caption{	
+	background:none;
+}
+
+.nav-link{
+	font-weight: 600;
+	color: #212529;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #006699;
+}
+
+.navbar-logo{
+	color: #212529;
+	font-weight: bold;	
+}
+
+.navbar-logo:hover{
+	color: #006699;
+	text-decoration: none;	
+}
+
+/*---SLIDER---*/
+#propaganda{
+  margin-top: 74px;  
+}
+
+
+/*===================================== Planos =====================================*/
+/*==================================================================================*/
+
+section.pricing {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 4px;
+  border: 0px;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.9;
+  transition: all 0.2s;
+  background: #003068;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+.rounded{    
+  border: solid 1px #fff;
+}
+
+.fa-facebook-square{
+
+}
+/*===================================== CUSTOM =====================================*/
+/*==================================================================================*/
+.dk-card-title{ 
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.dkcontainer{
+	background:#006699;
+	color: #fff;	
+}
+
+.dkcoluna1{
+	padding-top: 8px; 	
+}
+
+#dkbtn-clt{
+	padding: 8px;
+	border-radius: 5px;
+	background: #003068;
+	color: #fff;
+	border: 0px;	
+	font-weight: 700;
+}
+
+#dkbtn-clt:hover{
+	background: #FF9900;
+  font-weight: 700;
+}
+
+#sobre{	
+  margin-top: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 10px;  
+  padding-right: 10px;
+  background: #1F212D;
+  color: #fff;
+  
+}
+#vantagem{
+  margin-top: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 10px;  
+  padding-right: 10px;
+}
+#passo-a-passo{
+	padding: 40px; 
+  color: #fff;
+  text-align: center;
+}
+
+.dk-passos{
+
+}
+
+
+#contato {
+  padding: 20px;
+  color: #000000;
+  background: #007bff;
+  background: linear-gradient(to right, #002D65, #0064A5);
+}
+
+.dk-card001 {
+  width: 100%;
+  padding:10px;  
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-align: center;
+}
+.dk-card001:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.dk-btn-whatsapp{
+  background: #343A40;
+  color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.dk-btn-whatsapp:hover{
+  color: #fff;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
